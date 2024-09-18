@@ -1,0 +1,16 @@
+Package: montyhall
+Title: Simulates the Monty Hall Problem
+Version: 0.0.0.9001
+Authors@R: 
+    person("Ben",
+	   "Jefferies", , 
+	   "bjjefferies@gmail.com", 
+	    role = c("aut", "cre"),
+      comment = c(ORCID = "0009-0000-7725-3071"))
+Description: This package contains all component functions needed to simulate random trials of the Monty Hall Problem. It allows users to generate individual problems to investigate and to run many simulations and report winning probabilities for the two strategies possible in this problem/game. This package is useful for exploring mathematical probability and making connections between theoretical and empirical/experimental probability.
+Depends:
+	dplyr
+License: `use_mit_license()`, `use_gpl3_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
